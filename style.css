@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+    color: rgb(255, 106, 0);
+}
+/* From Uiverse.io by ShrinilDhorda */ 
+.btn {
+  
+  margin-top:25px ;
+  margin: auto;
+  width: 170px;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(26, 22, 14);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #653e1f;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.box{
+  background:linear-gradient(43deg,#f65409,#e761a0,#c265dc,#c67e4a);
+  color: rgb(15, 14, 14);
+  min-width: 220px;
+  max-width: 500px;
+  justify-content: center;
+  margin:20px auto;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  box-shadow: 1px 3px 30px #653e1f;
+}
+
+.btn:active {
+  scale: 0.92;
+}
+
+.btn:hover {
+  background: rgb(78, 2, 2);
+  background: linear-gradient(270deg, rgba(118, 74, 3, 0.681) 0%, rgba(246, 199, 31, 0.873) 60%);
+  color: rgb(38, 28, 4);
+}@media (max-width: 480px) { 
+  body{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+
+  }
+}
